@@ -6,7 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 // Connect to the MongoDB
-//mongoose.connect('mongodb://words:dummy123@ds053439.mongolab.com:53439/words');
+
 mongoose.connect('mongodb://localhost:27017/words2');
 
 var routes = require('./routes/index');
